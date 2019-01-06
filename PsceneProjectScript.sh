@@ -149,9 +149,9 @@ Browser_rate_TNA_Tor="Yes - 10/10"          ##	        ##   ## 		               
 ######__Prenstalled_Priv_plugins__############	        ##   ## 		                                                   ##
 	                                                ##   ## 		                                                   ##
 ##########--Plugin_Support--##################	        ##   ## 		                                                   ##
-Browser_rate_PS_Firefox="Great -10/10"      ##	        ##   ## 		                                                   ##
+Browser_rate_PS_Firefox="Great - 10/10"     ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Vivaldi="N-A"               ##	        ##   ## 		                                                   ##
-Browser_rate_PS_Brave="Very Poor - 3/10"    ##	        ##   ## 		                                                   ##
+Browser_rate_PS_Brave="Great - 10/10"       ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Sphere="N-A"                ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Ungoogled_Chromium="N-A"    ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Tor="Great - 10/10"         ##	        ##   ## 		                                                   ##
