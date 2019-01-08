@@ -38,7 +38,7 @@ echo -e "				.-:::::-.      /MMm.          .::.    .-:-       .-:-      .-/oooo/
 echo -e "				              .mMM/"
 echo -e " 				              .oo/" 
 }
-Current_Version="1.0.0"
+Current_Version="1.0.2"
 BeginningPoint(){
 ############################################################################################################################
 Types="Browsers VPNs Search_Engines File_Share_Cloud Password_Storage Credits Check_For_Update Next_Update_Plans Help "   ##
@@ -149,7 +149,7 @@ Browser_rate_TNA_Tor="Yes - 10/10"          ##	        ##   ## 		               
 ######__Prenstalled_Priv_plugins__############	        ##   ## 		                                                   ##
 	                                                ##   ## 		                                                   ##
 ##########--Plugin_Support--##################	        ##   ## 		                                                   ##
-Browser_rate_PS_Firefox="Great - 10/10"     ##	        ##   ## 		                                                   ##
+Browser_rate_PS_Firefox="Great -10/10"      ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Vivaldi="N-A"               ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Brave="Great - 10/10"       ##	        ##   ## 		                                                   ##
 Browser_rate_PS_Sphere="N-A"                ##	        ##   ## 		                                                   ##
@@ -546,10 +546,9 @@ echo																																			    ##
 Update_Check_Main_Point(){
 ############################################################################################################################################################################################################
 echo -e "${RED}Current Version : ${ORANGE}$Current_Version${MAINCOLOR}"																	  ##
-echo																									  ##
-echo -e "Visit my github page here to see the last version:"																		  ##
-echo -e "${RED}https://github.com/JimChrModder/PsceneProject/blob/master/README.md${MAINCOLOR}"														  ##
-echo																									  ##
+echo -e	"${RED}"																							  ##																		  ##
+ curl -L https://raw.githubusercontent.com/JimChrModder/PsceneProject/master/O_version.md														  ##
+echo	-e	"${MAINCOLOR}"																						  ##
 ############################################################################################################################################################################################################
 }
 
@@ -587,6 +586,9 @@ BeginningPoint									       ##
 fi										       ##
 #########################################################################################
 }
+
+
+
 
 
 LOGO
