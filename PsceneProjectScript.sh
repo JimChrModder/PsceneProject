@@ -38,7 +38,7 @@ echo -e "				.-:::::-.      /MMm.          .::.    .-:-       .-:-      .-/oooo/
 echo -e "				              .mMM/"
 echo -e " 				              .oo/" 
 }
-Current_Version="1.0.3"
+Current_Version="1.0.4"
 BeginningPoint(){
 ############################################################################################################################
 Types="Browsers VPNs Search_Engines File_Share_Cloud Password_Storage Credits Check_For_Update Next_Update_Plans Help "   ##
@@ -573,7 +573,7 @@ if [ $? -eq 0 ]; then																							  ##
 echo -e "${RED}Current Version : ${ORANGE}$Current_Version${MAINCOLOR}"																	  ##
 echo -e	"${RED}"																							  ##																		  ##
  curl -L https://raw.githubusercontent.com/JimChrModder/PsceneProject/master/O_version.md														  ##
-																									  ##
+echo -e "${MAINCOLOR}"																									  ##
 else																									  ##
 																									  ##
 echo -e "${ORANGE}There is no internet connection. Please check your internet settings"														  	  ##
