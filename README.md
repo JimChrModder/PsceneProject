@@ -8,6 +8,6 @@
     Current Version : 1.0.5
 
 - <h3>How run it?</h3>
-  -<h4>Open Terminal</h4>
-  -<h4>Get in the File where you saved Pscene files</h4>
-  -<h4>Type ./P_scene.sh</h4>
+  <h4>Open Terminal</h4>
+  <h4>Get in the File where you saved Pscene files</h4>
+  <h4>Type ./P_scene.sh</h4>
