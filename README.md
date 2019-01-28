@@ -5,7 +5,7 @@
 
 
 - <h3>What is the last version</h3>
-    Current Version : 1.0.5
+    Current Version : 1.0.6
 
 - <h3>How run it?</h3>
   <h4>Open Terminal</h4>
