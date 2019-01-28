@@ -7,7 +7,7 @@
 - <h3>What is the last version</h3>
     Current Version : 1.0.6
 
-- <h3>How run it?</h3>
+- <h3>How to run it?</h3>
   <h4>Open Terminal</h4>
   <h4>Get in the Pscene folder</h4>
   <h4>Type: chmod +x Execution.sh</h4>
