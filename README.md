@@ -9,7 +9,7 @@
 
 - <h3>How run it?</h3>
   <h4>Open Terminal</h4>
-  <h4>Get in the file of Pscene files</h4>
+  <h4>Get in the Pscene folder</h4>
   <h4>Type: chmod +x Execution.sh</h4>
   <h4>Type: ./Execution.sh</h4>
   <h4>Type: ./P_scene.sh</h4>
