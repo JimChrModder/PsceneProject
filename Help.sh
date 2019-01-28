@@ -11,6 +11,8 @@ Help_Main_Point(){
 echo -e "To go back from somewhere, just type ${RED}bk${MAINCOLOR}"			      ##
 echo											      ##
 echo -e "To clean your screen from to much information, just type ${RED}clear${MAINCOLOR}"    ##
+echo
+echo -e "To go to the main menu anytime, just type ${RED}home${MAINCOLOR}"
 echo                                                                                          ##
 echo -e "Also there is an oblation in Pscene"					              ##
 echo -e "${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${RED}-${ORANGE}-${MAINCOLOR}"

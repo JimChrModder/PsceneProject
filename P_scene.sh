@@ -42,7 +42,7 @@ echo -e "				.-:::::-.      /MMm.          .::.    .-:-       .-:-      .-/oooo/
 echo -e "				              .mMM/"
 echo -e " 				              .oo/" 
 }
-Current_Version="1.0.5"
+Current_Version="1.0.6"
 
 BeginningPoint(){
 ############################################################################################################################
@@ -99,7 +99,10 @@ echo "There is nothing behind"	         										  ##
 elif [[ "$REPLY" = "clear" ]]; then											  ##
 clear															  ##
 LOGO															  ##
-BeginningPoint														  ##
+BeginningPoint
+
+elif [[ "$REPLY" = "home" ]]; then
+echo -e "${ORANGE}You are in the main menu already. ${MAINCOLOR}"														  ##
 															  ##
 elif [[ "$REPLY" = "oblation" ]]; then											  ##
 Oblation													 	  ##
