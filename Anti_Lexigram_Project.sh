@@ -9,30 +9,19 @@ if [[ $word = "clear" ]]; then
 	unset http_proxy
 	unset https_proxy
 else
-printf "from (0<): "; read First_point
-printf "to (>10767): "; read Last_point
- sed -n ${First_point},${Last_point}p Proxy_list
-echo
-printf "set IP:"; read VarIP
-printf "set Port:"; read VarPort
-echo $VarIP
-echo $VarPort
-
-export http_proxy=$!http://${VarIP}:${VarPort}
-export https_proxy=$!http://${VarIP}:${VarPort}
+printf "from (0<) to (>10767): "; read RAW
+cat Proxy_list.txt | while IFS=':' read VarRaw VariIP VariPort; do if [ "$VarRaw" = "$RAW" ]; then echo "$VariIP $VariPort"; fi; done 
+export http_proxy=$!http://${VariIP}:${VariPort}
+export https_proxy=$!http://${VariIP}:${VariPort}
 printf "leksh: "; read leksh
 
 encodedleksh=$(urlencode "$leksh")
 
 site=$!https://www.lexigram.gr/lex/enni/${encodedleksh} 
 lynx $site
+unset http_proxy
+unset https_proxy
 fi
 
 }
 ANTI_LEXIGRAM
-
-
-#######################DISABLE_PROXY###########################
-
-
-
